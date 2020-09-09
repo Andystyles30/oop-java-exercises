@@ -46,21 +46,21 @@ public class CatTest {
         assertEquals(1100, lionCat.getAverageHeight());
     }
 
-    // @Test
-    // public void feedTheLion() {
-    //     Cat lionCat = new LionCat();
-    //     assertEquals("Roar!!!!", lionCat.eat());
-    // }
+    @Test
+    public void feedTheLion() {
+        Cat lionCat = new LionCat();
+        assertEquals("Roar!!!!", lionCat.eat());
+    }
 
-    // @Test
-    // public void feedTheCheetah() {
-    //     Cat cheetahCat = new CheetahCat();
-    //     assertEquals("Zzzzzzz", cheetahCat.eat());
-    // }
+    @Test
+    public void feedTheCheetah() {
+        Cat cheetahCat = new CheetahCat();
+        assertEquals("Zzzzzzz", cheetahCat.eat());
+    }
 
-    // @Test
-    // public void feedTheCat() {
-    //     Cat domesticCat = new DomesticCat();
-    //     assertEquals("Purrrrrrr", domesticCat.eat());
-    // }
+    @Test
+    public void feedTheCat() {
+        Cat domesticCat = new DomesticCat();
+        assertEquals("Purrrrrrr", domesticCat.eat());
+    }
 }

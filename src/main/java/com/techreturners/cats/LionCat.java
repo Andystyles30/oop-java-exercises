@@ -19,4 +19,9 @@ public class LionCat extends CatObject {
     public int getAverageHeight() {
         return this.averageHeight;
     }
+
+    @Override
+    public String eat() {
+        return "Roar!!!!";
+    }
 } 

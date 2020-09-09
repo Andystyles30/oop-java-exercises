@@ -25,4 +25,7 @@ abstract class CatObject implements Cat {
 
     //abstract method
     public abstract int getAverageHeight();
+
+    //abstract method
+    public abstract String eat();
 }

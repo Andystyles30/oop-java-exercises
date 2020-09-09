@@ -24,5 +24,5 @@ abstract class CatObject implements Cat {
     public abstract String getSetting();
 
     //abstract method
-    public abstract String getAverageHeight();
+    public abstract int getAverageHeight();
 }

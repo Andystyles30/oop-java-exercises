@@ -3,6 +3,7 @@ package com.techreturners.cats;
 public class DomesticCat extends CatObject {
 
     private String setting; 
+    private int averageHeight; 
 
     public DomesticCat() {
         this.setting = "domestic";
@@ -12,5 +13,10 @@ public class DomesticCat extends CatObject {
     @Override
     public String getSetting() {
         return this.setting;
+    }
+
+    @Override
+    public int getAverageHeight() {
+        return this.averageHeight;
     }
 } 

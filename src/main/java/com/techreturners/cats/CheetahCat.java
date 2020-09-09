@@ -3,6 +3,7 @@ package com.techreturners.cats;
 public class CheetahCat extends CatObject {
 
     private String setting; 
+    private int averageHeight; 
 
     public CheetahCat() {
         this.setting = "wild";
@@ -15,7 +16,7 @@ public class CheetahCat extends CatObject {
     }
 
     @Override
-    public String getAverageHeight() {
-        return this.setting;
+    public int getAverageHeight() {
+        return this.averageHeight;
     }
 } 

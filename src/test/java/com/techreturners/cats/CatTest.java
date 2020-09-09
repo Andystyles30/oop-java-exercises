@@ -35,6 +35,12 @@ public class CatTest {
     }
 
     @Test
+    public void checkCatSettingForLion() {
+        Cat LionCat = new LionCat();
+        assertEquals("wild", LionCat.getSetting());
+    }
+
+    @Test
     public void checkCatHeight() {
         Cat domesticCat = new DomesticCat();
         assertEquals(23, domesticCat.getAverageHeight());
@@ -44,6 +50,12 @@ public class CatTest {
     public void checkLionHeight() {
         Cat lionCat = new LionCat();
         assertEquals(1100, lionCat.getAverageHeight());
+    }
+
+    @Test
+    public void checkCheetahHeight() {
+        Cat lionCat = new CheetahCat();
+        assertEquals(900, lionCat.getAverageHeight());
     }
 
     @Test

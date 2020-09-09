@@ -3,6 +3,7 @@ package com.techreturners.cats;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 public class CatTest {
 
@@ -33,34 +34,34 @@ public class CatTest {
         assertEquals("domestic", domesticCat.getSetting());
     }
 
-    @Test
-    public void checkCatHeight() {
-        Cat domesticCat = new DomesticCat();
-        assertEquals(23, domesticCat.getAverageHeight());
-    }
+    // @Test
+    // public void checkCatHeight() {
+    //     Cat domesticCat = new DomesticCat();
+    //     assertEquals(23, domesticCat.getAverageHeight());
+    // }
 
-    @Test
-    public void checkLionHeight() {
-        Cat lionCat = new LionCat();
-        assertEquals(1100, lionCat.getAverageHeight());
-    }
+    // @Test
+    // public void checkLionHeight() {
+    //     Cat lionCat = new LionCat();
+    //     assertEquals(1100, lionCat.getAverageHeight());
+    // }
 
 
-    @Test
-    public void feedTheLion() {
-        Cat lionCat = new LionCat();
-        assertEquals("Roar!!!!", lionCat.eat());
-    }
+    // @Test
+    // public void feedTheLion() {
+    //     Cat lionCat = new LionCat();
+    //     assertEquals("Roar!!!!", lionCat.eat());
+    // }
 
-    @Test
-    public void feedTheCheetah() {
-        Cat cheetahCat = new CheetahCat();
-        assertEquals("Zzzzzzz", cheetahCat.eat());
-    }
+    // @Test
+    // public void feedTheCheetah() {
+    //     Cat cheetahCat = new CheetahCat();
+    //     assertEquals("Zzzzzzz", cheetahCat.eat());
+    // }
 
-    @Test
-    public void feedTheCat() {
-        Cat domesticCat = new DomesticCat();
-        assertEquals("Purrrrrrr", domesticCat.eat());
-    }
+    // @Test
+    // public void feedTheCat() {
+    //     Cat domesticCat = new DomesticCat();
+    //     assertEquals("Purrrrrrr", domesticCat.eat());
+    // }
 }

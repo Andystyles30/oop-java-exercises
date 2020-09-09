@@ -1,4 +1,5 @@
 package com.techreturners.cats;
+import java.util.Random;
 
 public class DomesticCat extends CatObject {
 
@@ -22,6 +23,12 @@ public class DomesticCat extends CatObject {
 
     @Override
     public String eat() {
-        return "Purrrrrrr";
+        return getRandomComment();
+    }
+
+    private static String getRandomComment() {
+        String[] random_comment = {"Purrrrrrr", "It will do I suppose"};
+        int rnd = new Random().nextInt(random_comment.length);
+        return random_comment[rnd];
     }
 } 

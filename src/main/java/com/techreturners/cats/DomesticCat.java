@@ -6,8 +6,10 @@ public class DomesticCat extends CatObject {
 
     public DomesticCat() {
         this.setting = "domestic";
+        this.averageHeight = 23;
     }
 
+    @Override
     public String getSetting() {
         return this.setting;
     }

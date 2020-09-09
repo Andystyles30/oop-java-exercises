@@ -3,11 +3,9 @@ package com.techreturners.cats;
 abstract class CatObject implements Cat {
 
     private Boolean asleep;
-    private String setting;
 
     public CatObject() {
         this.asleep = false;
-        this.setting = "cat";
     }
 
     public Boolean isAsleep() {
@@ -22,7 +20,9 @@ abstract class CatObject implements Cat {
         this.asleep = false;
     }  
     
-    public String getSetting() {
-        return this.setting;
-    }
+    //abstract method
+    public abstract String getSetting();
+
+    //abstract method
+    public abstract String getAverageHeight();
 }

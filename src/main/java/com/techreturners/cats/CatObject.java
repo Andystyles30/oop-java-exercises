@@ -19,13 +19,4 @@ abstract class CatObject implements Cat {
     public void wakeUp() {
         this.asleep = false;
     }  
-    
-    //abstract method
-    public abstract String getSetting();
-
-    //abstract method
-    public abstract int getAverageHeight();
-
-    //abstract method
-    public abstract String eat();
 }
